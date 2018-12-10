@@ -2,7 +2,7 @@
 
 featureNames        <- read.table("./features.txt",header=FALSE)
 activityLabel   <- read.table("./activity_labels.txt",header=FALSE)
-subject_Train    <-read.table("./train/subject_train.txt", header=FALSE)
+subject_train    <-read.table("./train/subject_train.txt", header=FALSE)
 X_train          <- read.table("./train/X_train.txt", header=FALSE)
 y_train          <- read.table("./train/y_train.txt", header=FALSE)
 
